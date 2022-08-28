@@ -1,0 +1,3 @@
+-keep class org.elixir.oplus.OPlusExtras.** {
+  *;
+}
