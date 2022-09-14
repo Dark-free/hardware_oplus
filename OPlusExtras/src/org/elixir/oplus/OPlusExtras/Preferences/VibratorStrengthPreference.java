@@ -16,7 +16,7 @@
 * along with this program. If not, see <http://www.gnu.com/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras.preferences;
+package org.elixir.oplus.OPlusExtras.preferences;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -25,9 +25,9 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 
-import org.evolution.oplus.OPlusExtras.OPlusExtras;
-import org.evolution.oplus.OPlusExtras.FileUtils;
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.OPlusExtras;
+import org.elixir.oplus.OPlusExtras.FileUtils;
+import org.elixir.oplus.OPlusExtras.R;
 
 public class VibratorStrengthPreference extends CustomSeekBarPreference {
 
@@ -80,7 +80,7 @@ public class VibratorStrengthPreference extends CustomSeekBarPreference {
         if (!isSupported(context)) {
             return;
         }
-        
+
         int[] mAllValues = context.getResources().getIntArray(R.array.vibrator_strength_preference_array);
         mDefVal = mAllValues[0];
         String storedValue = PreferenceManager.getDefaultSharedPreferences(context).getString(OPlusExtras.KEY_VIBSTRENGTH, String.valueOf(mDefVal));

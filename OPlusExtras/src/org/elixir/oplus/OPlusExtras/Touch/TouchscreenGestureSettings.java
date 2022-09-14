@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.touch;
+package org.elixir.oplus.OPlusExtras.touch;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -37,7 +37,7 @@ import com.android.internal.custom.hardware.LineageHardwareManager;
 import com.android.internal.custom.hardware.TouchscreenGesture;
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.R;
 
 import java.lang.System;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.services;
+package org.elixir.oplus.OPlusExtras.services;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -47,8 +47,8 @@ import java.io.FileReader;
 import java.lang.StringBuffer;
 import java.lang.Math;
 
-import org.evolution.oplus.OPlusExtras.FileUtils;
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.FileUtils;
+import org.elixir.oplus.OPlusExtras.R;
 
 public class FPSInfoService extends Service {
     private View mView;
@@ -193,7 +193,7 @@ public class FPSInfoService extends Service {
                     android.R.style.Theme_DeviceDefault);
             contextThemeWrapper.getTheme().resolveAttribute(android.R.attr.colorAccent,
                     typedValue, true);
-            return typedValue.data; 
+            return typedValue.data;
         }
 
         void updateDisplay() {

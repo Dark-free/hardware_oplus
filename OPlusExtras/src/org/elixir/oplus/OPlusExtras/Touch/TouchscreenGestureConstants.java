@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.touch;
+package org.elixir.oplus.OPlusExtras.touch;
 
 class TouchscreenGestureConstants {
     // Broadcast action for settings update
-    static final String UPDATE_PREFS_ACTION = "org.evolution.oplus.OPlusExtras.touch.UPDATE_SETTINGS";
+    static final String UPDATE_PREFS_ACTION = "org.elixir.oplus.OPlusExtras.touch.UPDATE_SETTINGS";
     // Broadcast extra: keycode mapping (int[]: key = gesture ID, value = keycode)
     static final String UPDATE_EXTRA_KEYCODE_MAPPING = "keycode_mappings";
     // Broadcast extra: assigned actions (int[]: key = gesture ID, value = action)

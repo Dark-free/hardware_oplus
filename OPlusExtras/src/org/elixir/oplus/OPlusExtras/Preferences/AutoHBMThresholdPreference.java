@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras.preferences;
+package org.elixir.oplus.OPlusExtras.preferences;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,9 +23,9 @@ import android.os.Bundle;
 import android.util.AttributeSet;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.oplus.OPlusExtras.OPlusExtras;
-import org.evolution.oplus.OPlusExtras.FileUtils;
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.OPlusExtras;
+import org.elixir.oplus.OPlusExtras.FileUtils;
+import org.elixir.oplus.OPlusExtras.R;
 
 public class AutoHBMThresholdPreference extends CustomSeekBarPreference {
 

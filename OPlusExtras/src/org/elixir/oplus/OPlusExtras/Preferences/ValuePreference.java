@@ -16,7 +16,7 @@
 * along with this program. If not, see <http://www.gnu.com/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras.preferences;
+package org.elixir.oplus.OPlusExtras.preferences;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,9 +24,9 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 
-import org.evolution.oplus.OPlusExtras.kcal.KcalSettings;
-import org.evolution.oplus.OPlusExtras.FileUtils;
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.kcal.KcalSettings;
+import org.elixir.oplus.OPlusExtras.FileUtils;
+import org.elixir.oplus.OPlusExtras.R;
 
 public class ValuePreference extends CustomSeekBarPreference {
 
@@ -69,7 +69,7 @@ public class ValuePreference extends CustomSeekBarPreference {
         if (!isSupported(context)) {
             return;
         }
-        
+
         int[] mAllValues = context.getResources().getIntArray(R.array.kcal_value_preference_array);
         mDefVal = mAllValues[0];
         String storedValue = PreferenceManager.getDefaultSharedPreferences(context).getString(KcalSettings.KEY_VALUE, String.valueOf(mDefVal));

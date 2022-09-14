@@ -17,7 +17,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras;
+package org.elixir.oplus.OPlusExtras;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -52,14 +52,14 @@ import java.util.Random;
 
 import com.plattysoft.leonids.ParticleSystem;
 
-import org.evolution.oplus.OPlusExtras.doze.DozeSettingsActivity;
-import org.evolution.oplus.OPlusExtras.FileUtils;
-import org.evolution.oplus.OPlusExtras.modeswitch.*;
-import org.evolution.oplus.OPlusExtras.preferences.*;
-import org.evolution.oplus.OPlusExtras.R;
-import org.evolution.oplus.OPlusExtras.services.*;
-import org.evolution.oplus.OPlusExtras.slider.SliderConstants;
-import org.evolution.oplus.OPlusExtras.touch.TouchscreenGestureSettings;
+import org.elixir.oplus.OPlusExtras.doze.DozeSettingsActivity;
+import org.elixir.oplus.OPlusExtras.FileUtils;
+import org.elixir.oplus.OPlusExtras.modeswitch.*;
+import org.elixir.oplus.OPlusExtras.preferences.*;
+import org.elixir.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.services.*;
+import org.elixir.oplus.OPlusExtras.slider.SliderConstants;
+import org.elixir.oplus.OPlusExtras.touch.TouchscreenGestureSettings;
 
 public class OPlusExtras extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -477,7 +477,7 @@ public class OPlusExtras extends PreferenceFragment
           } else if (preference == mFpsInfo) {
             boolean enabled = (Boolean) newValue;
             Intent fpsinfo = new Intent(this.getContext(),
-                    org.evolution.oplus.OPlusExtras.services.FPSInfoService.class);
+                    org.elixir.oplus.OPlusExtras.services.FPSInfoService.class);
             if (enabled) {
                 this.getContext().startService(fpsinfo);
             } else {

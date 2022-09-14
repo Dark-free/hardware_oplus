@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.slider;
+package org.elixir.oplus.OPlusExtras.slider;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.util.Log;
 
-import org.evolution.oplus.OPlusExtras.FileUtils;
+import org.elixir.oplus.OPlusExtras.FileUtils;
 
 public abstract class SliderControllerBase {
 

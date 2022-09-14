@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.oplus.OPlusExtras.doze;
+package org.elixir.oplus.OPlusExtras.doze;
 
 import android.app.Service
 import android.content.BroadcastReceiver
@@ -13,7 +13,7 @@ import android.content.IntentFilter
 import android.os.IBinder
 import android.util.Log
 
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.R;
 
 class DozeService : Service() {
     private lateinit var pickupSensor: PickupSensor

@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras.kcal;
+package org.elixir.oplus.OPlusExtras.kcal;
 
 import android.app.Fragment;
 import android.os.Bundle;

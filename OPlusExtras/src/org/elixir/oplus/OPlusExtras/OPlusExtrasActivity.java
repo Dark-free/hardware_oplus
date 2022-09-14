@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras;
+package org.elixir.oplus.OPlusExtras;
 
 import android.app.Fragment;
 import android.os.Bundle;

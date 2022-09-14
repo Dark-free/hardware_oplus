@@ -16,7 +16,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras;
+package org.elixir.oplus.OPlusExtras;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -25,13 +25,13 @@ import android.content.SharedPreferences;
 import android.provider.Settings;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.oplus.OPlusExtras.doze.DozeUtils;
-import org.evolution.oplus.OPlusExtras.FileUtils;
-import org.evolution.oplus.OPlusExtras.modeswitch.*;
-import org.evolution.oplus.OPlusExtras.preferences.*;
-import org.evolution.oplus.OPlusExtras.refreshrate.RefreshUtils;
-import org.evolution.oplus.OPlusExtras.services.FPSInfoService;
-import org.evolution.oplus.OPlusExtras.touch.TouchscreenGestureSettings;
+import org.elixir.oplus.OPlusExtras.doze.DozeUtils;
+import org.elixir.oplus.OPlusExtras.FileUtils;
+import org.elixir.oplus.OPlusExtras.modeswitch.*;
+import org.elixir.oplus.OPlusExtras.preferences.*;
+import org.elixir.oplus.OPlusExtras.refreshrate.RefreshUtils;
+import org.elixir.oplus.OPlusExtras.services.FPSInfoService;
+import org.elixir.oplus.OPlusExtras.touch.TouchscreenGestureSettings;
 
 public class Startup extends BroadcastReceiver {
 

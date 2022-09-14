@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.oplus.OPlusExtras.doze;
+package org.elixir.oplus.OPlusExtras.doze;
 
 import android.content.Context
 import android.hardware.Sensor

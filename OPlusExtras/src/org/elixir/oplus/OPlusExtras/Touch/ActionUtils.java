@@ -1,4 +1,4 @@
-package org.evolution.oplus.OPlusExtras.touch;
+package org.elixir.oplus.OPlusExtras.touch;
 
 import android.app.KeyguardManager;
 import android.content.Context;
@@ -91,8 +91,8 @@ public class ActionUtils {
 
     private static Intent getOPlusExtrasIntent(Context context) {
         Intent intent = new Intent();
-        ComponentName cn=new ComponentName("org.evolution.oplus.OPlusExtras",
-                "org.evolution.oplus.OPlusExtras.OPlusExtrasActivity");
+        ComponentName cn=new ComponentName("org.elixir.oplus.OPlusExtras",
+                "org.elixir.oplus.OPlusExtras.OPlusExtrasActivity");
         intent.setComponent(cn);
         return intent;
     }
@@ -153,7 +153,7 @@ public class ActionUtils {
         KeyguardManager km = (KeyguardManager) context.getSystemService(Context.KEYGUARD_SERVICE);
         if (km.isKeyguardLocked()) {
             intent = new Intent();
-            intent.setClassName("org.evolution.oplus.OPlusExtras", "org.evolution.oplus.OPlusExtras.touch.ScreenOffLaunchGestureActivity");
+            intent.setClassName("org.elixir.oplus.OPlusExtras", "org.elixir.oplus.OPlusExtras.touch.ScreenOffLaunchGestureActivity");
             intent.putExtra(ScreenOffLaunchGestureActivity.ACTION_KEY, action);
         }
         startActivitySafely(context, intent);

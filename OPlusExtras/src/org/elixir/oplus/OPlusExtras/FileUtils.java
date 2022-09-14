@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras;
+package org.elixir.oplus.OPlusExtras;
 
 import android.content.Context;
 import android.content.Intent;
@@ -36,8 +36,8 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-import org.evolution.oplus.OPlusExtras.OPlusExtras;
-import org.evolution.oplus.OPlusExtras.services.AutoHBMService;
+import org.elixir.oplus.OPlusExtras.OPlusExtras;
+import org.elixir.oplus.OPlusExtras.services.AutoHBMService;
 
 public class FileUtils {
 

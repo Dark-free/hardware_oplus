@@ -1,4 +1,4 @@
-package org.evolution.oplus.OPlusExtras.touch;
+package org.elixir.oplus.OPlusExtras.touch;
 
 import android.app.Activity;
 import android.app.KeyguardManager;

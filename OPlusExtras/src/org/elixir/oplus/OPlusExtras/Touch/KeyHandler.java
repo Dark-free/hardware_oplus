@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.touch;
+package org.elixir.oplus.OPlusExtras.touch;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

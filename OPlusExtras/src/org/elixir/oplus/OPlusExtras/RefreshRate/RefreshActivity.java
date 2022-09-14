@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.refreshrate;
+package org.elixir.oplus.OPlusExtras.refreshrate;
 
 import android.os.Bundle;
 import android.view.MenuItem;

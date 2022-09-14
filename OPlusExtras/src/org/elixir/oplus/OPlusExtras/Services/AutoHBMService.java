@@ -1,4 +1,4 @@
-package org.evolution.oplus.OPlusExtras.services;
+package org.elixir.oplus.OPlusExtras.services;
 
 import android.app.KeyguardManager;
 import android.app.Service;
@@ -15,9 +15,9 @@ import android.os.IBinder;
 import android.os.PowerManager;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.oplus.OPlusExtras.OPlusExtras;
-import org.evolution.oplus.OPlusExtras.FileUtils;
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.OPlusExtras;
+import org.elixir.oplus.OPlusExtras.FileUtils;
+import org.elixir.oplus.OPlusExtras.R;
 
 public class AutoHBMService extends Service {
     private static final int HBM_NODE = R.string.node_hbm_mode_switch;

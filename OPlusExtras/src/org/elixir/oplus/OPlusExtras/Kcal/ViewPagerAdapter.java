@@ -16,7 +16,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras.kcal;
+package org.elixir.oplus.OPlusExtras.kcal;
 
 import android.content.Context;
 import androidx.viewpager.widget.PagerAdapter;
@@ -26,7 +26,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.R;
 
 public class ViewPagerAdapter extends PagerAdapter {
 

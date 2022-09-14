@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.oplus.OPlusExtras.doze;
+package org.elixir.oplus.OPlusExtras.doze;
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -16,7 +16,7 @@ import androidx.preference.*
 import com.android.settingslib.widget.MainSwitchPreference
 import com.android.settingslib.widget.OnMainSwitchChangeListener
 
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.R;
 
 class DozeSettingsFragment : PreferenceFragment(), Preference.OnPreferenceChangeListener,
     OnMainSwitchChangeListener {

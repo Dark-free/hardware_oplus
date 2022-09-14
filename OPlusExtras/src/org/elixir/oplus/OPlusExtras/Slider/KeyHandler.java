@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.slider;
+package org.elixir.oplus.OPlusExtras.slider;
 
 import android.app.NotificationManager;
 import android.content.BroadcastReceiver;

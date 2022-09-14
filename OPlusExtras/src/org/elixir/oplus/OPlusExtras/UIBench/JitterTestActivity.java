@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.uibench;
+package org.elixir.oplus.OPlusExtras.uibench;
 
 import android.app.Activity;
 import android.content.Context;
@@ -37,7 +37,7 @@ import android.view.Window.OnFrameMetricsAvailableListener;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.R;
 
 public class JitterTestActivity extends Activity {
     private TextView mJitterReport;

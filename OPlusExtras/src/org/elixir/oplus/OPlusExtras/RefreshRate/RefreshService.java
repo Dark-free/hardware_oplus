@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.oplus.OPlusExtras.refreshrate;
+package org.elixir.oplus.OPlusExtras.refreshrate;
 
 import android.app.ActivityManager;
 import android.app.ActivityTaskManager;
@@ -76,7 +76,7 @@ public class RefreshService extends Service {
     private void registerReceiver() {
         IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_SCREEN_OFF);
-        filter.addAction(Intent.ACTION_SCREEN_ON);        
+        filter.addAction(Intent.ACTION_SCREEN_ON);
         this.registerReceiver(mIntentReceiver, filter);
     }
 

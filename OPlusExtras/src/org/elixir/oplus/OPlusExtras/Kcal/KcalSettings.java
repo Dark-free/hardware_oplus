@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.oplus.OPlusExtras.kcal;
+package org.elixir.oplus.OPlusExtras.kcal;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -29,14 +29,14 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.oplus.OPlusExtras.preferences.RedPreference;
-import org.evolution.oplus.OPlusExtras.preferences.GreenPreference;
-import org.evolution.oplus.OPlusExtras.preferences.BluePreference;
-import org.evolution.oplus.OPlusExtras.preferences.SaturationPreference;
-import org.evolution.oplus.OPlusExtras.preferences.HuePreference;
-import org.evolution.oplus.OPlusExtras.preferences.ValuePreference;
-import org.evolution.oplus.OPlusExtras.preferences.ContrastPreference;
-import org.evolution.oplus.OPlusExtras.R;
+import org.elixir.oplus.OPlusExtras.preferences.RedPreference;
+import org.elixir.oplus.OPlusExtras.preferences.GreenPreference;
+import org.elixir.oplus.OPlusExtras.preferences.BluePreference;
+import org.elixir.oplus.OPlusExtras.preferences.SaturationPreference;
+import org.elixir.oplus.OPlusExtras.preferences.HuePreference;
+import org.elixir.oplus.OPlusExtras.preferences.ValuePreference;
+import org.elixir.oplus.OPlusExtras.preferences.ContrastPreference;
+import org.elixir.oplus.OPlusExtras.R;
 
 public class KcalSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
